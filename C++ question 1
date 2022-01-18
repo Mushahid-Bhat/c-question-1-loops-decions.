@@ -1,0 +1,54 @@
+//question no 1
+
+#include <iostream>
+
+using namespace std;
+
+- int main()
+
+{
+
+int N,1, sum 0, average: int array[10];
+
+cout<<"entre the value N(no. of digits): ";
+
+cin>>N:
+
+cout<<"entre N no. of digits
+
+for(i=0;i< N;1--){
+
+cin >>array[i];
+
+}
+
+for(i=1;i<N; i--) {
+
+if(array[0]<array[i]) { array [0]=array[i]:
+
+}
+
+}
+
+cout<<"greatest number is "<<array[0]<<"\n";
+
+for(i=0;i<N; i++){
+
+if (array[0]>array[i]) { array[0]=array[1]:
+
+}
+
+} cout<<"smallest no. is "<<array [0]<<"\n";
+
+for(i=0;i<N;1++) {
+
+sum-=array[1];
+
+}
+
+average sum/N;
+
+cout<<"average value is "<<average<< "\n";
+
+return 0;
+}
